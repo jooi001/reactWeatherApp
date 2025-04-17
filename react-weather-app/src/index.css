@@ -1,7 +1,12 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Walter+Turncoat&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Walter Turncoat", cursive;
 }
 
 
@@ -9,5 +14,6 @@
 .app { 
   min-height: 100vh;
   display: grid;
-  background-color: #80deea;
+  background-color: #98edf8;
+  background-image: linear-gradient(to bottom, #4d50f7, #98edf8);
 }
